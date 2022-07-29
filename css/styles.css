@@ -70,6 +70,7 @@ img {
     align-items: center;
 }
 
+
 .list {
     list-style: none;
 }
@@ -118,14 +119,13 @@ img {
     display: flex;
     margin-left: auto;
 }
-
 .contact-mail,
 .contact-number {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color-theme-light);
-}
+    }
 
 .contact-mail {
     margin-right: 30px;
@@ -140,6 +140,7 @@ img {
 .section .hero {
     padding: 200px 0px;
     text-align: center;
+   
 }
 
 .main-tittle {
@@ -206,7 +207,7 @@ img {
 }
 
 
-/*===SERVICE===*/
+/*===SERVICES===*/
 
 
 .tittle {
@@ -282,6 +283,7 @@ img {
     margin-bottom: 20px;
 }
 
+
 .colorchange2 {
     color: var(--primary-background-color);
 }
@@ -292,6 +294,7 @@ img {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    
 }
 
 .adress-list .adress {
@@ -361,6 +364,7 @@ img {
 .text-box {
     padding: 20px 24px;
 }
+
 
 .text-box .subtittle {
     font-weight: 700;
