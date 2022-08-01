@@ -13,6 +13,7 @@
     --secondary-backround-color: #2F303A;
     --section-backround-colour: #F5F4FA;
     --border-color: #EEEEEE;
+    --backround-card:#F5F4FA;
 }
 
 body {
@@ -135,9 +136,6 @@ img {
 
 .hero {
     background-color: var(--secondary-backround-color);
-}
-
-.section .hero {
     padding: 200px 0px;
     text-align: center;
    
@@ -246,7 +244,8 @@ img {
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
     margin-top: 30px;
-    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: var(--backround-card);
 }   
 
 .card {
@@ -319,7 +318,7 @@ img {
     display: flex;
     justify-content: center;
     align-self: flex-start;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .filter-list .filter + .filter {
@@ -358,11 +357,14 @@ img {
 .project {
     width: 370px;
     margin: 15px;
-    border-bottom: 1px solid var(--border-color);
+   
 }
 
 .text-box {
     padding: 20px 24px;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 
